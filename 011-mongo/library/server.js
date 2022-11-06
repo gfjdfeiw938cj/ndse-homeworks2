@@ -19,6 +19,7 @@ app.use(errorMiddleware);
 
 const port = process.env.PORT || 3000;
 const dbName = process.env.DB_NAME || "library_service";
+console.log(dbName)
 
 async function start() {
 	try {
